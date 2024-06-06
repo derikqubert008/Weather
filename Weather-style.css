@@ -59,7 +59,7 @@ h2{
   height: 100px;
   position: relative;
   top: 50px;
-  right: 20px;
+  right: 10px;
   display: flex;
   margin-left: 25px;
 }
@@ -81,7 +81,7 @@ h3{
 .details2 p, .detail3 p{
   position: relative;
   top: 50px;
-  right: 75px;
+  right: 45px;
 }
 .detail3 p{
   position: relative;
