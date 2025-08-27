@@ -118,9 +118,33 @@ h4{
   font-size: 10px;
   display: none;
 }
+.detail3 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end; /* push content to right side */
+  align-items: center;       /* vertical alignment */
+  gap: 10px;                 /* space between image & text */
+  margin: 0;
+  position: relative;
+  bottom: 50px;
+}
+
+.detail3 img {
+  width: 50px;
+  height: 40px;
+  margin: 0; /* reset margin */
+}
+
+.detail3 h4, 
+.detail3 p {
+  position: static; /* remove unnecessary relative positioning */
+  font-size: 20px;
+}
 
 @media screen and (max-width: 1000px) {
   .card{
     width: 550px;
   }
+
 }
